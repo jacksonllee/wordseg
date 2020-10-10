@@ -1,5 +1,6 @@
 # wordseg
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4077433.svg)](https://doi.org/10.5281/zenodo.4077433)
 [![CircleCI](https://circleci.com/gh/jacksonllee/wordseg/tree/main.svg?style=svg)](https://circleci.com/gh/jacksonllee/wordseg/tree/main)
 
 `wordseg` is a Python package of word segmentation models.
@@ -10,6 +11,7 @@ Table of contents:
 * [Installation](https://github.com/jacksonllee/wordseg#installation)
 * [License](https://github.com/jacksonllee/wordseg#license)
 * [Changelog](https://github.com/jacksonllee/wordseg#changelog)
+* [Citation](https://github.com/jacksonllee/wordseg#citation)
 
 ## Usage
 
@@ -90,6 +92,20 @@ git clone https://github.com/jacksonllee/wordseg.git
 cd wordseg
 pip install -r dev-requirements.txt  # For running the linter and tests
 pip install -e .
+```
+
+## Citation
+
+Lee, Jackson L. 2020. wordseg: Word segmentation models in Python. https://doi.org/10.5281/zenodo.4077433
+
+```bibtex
+@software{leengrams,
+  author       = {Jackson L. Lee},
+  title        = {wordseg: Word segmentation models in Python},
+  year         = 2020,
+  doi          = {10.5281/zenodo.4077433},
+  url          = {https://doi.org/10.5281/zenodo.4077433}
+}
 ```
 
 ## License
