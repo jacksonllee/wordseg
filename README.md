@@ -7,11 +7,28 @@
 
 Table of contents:
 
-* [Usage](https://github.com/jacksonllee/wordseg#usage)
 * [Installation](https://github.com/jacksonllee/wordseg#installation)
+* [Usage](https://github.com/jacksonllee/wordseg#usage)
 * [License](https://github.com/jacksonllee/wordseg#license)
 * [Changelog](https://github.com/jacksonllee/wordseg#changelog)
 * [Citation](https://github.com/jacksonllee/wordseg#citation)
+
+## Installation
+
+`wordseg` is available through pip:
+
+```bash
+pip install wordseg
+```
+
+To install `wordseg` from the GitHub source:
+
+```bash
+git clone https://github.com/jacksonllee/wordseg.git
+cd wordseg
+pip install -r dev-requirements.txt  # For running the linter and tests
+pip install -e .
+```
 
 ## Usage
 
@@ -55,45 +72,6 @@ list(model.predict(["thatisadog", "thisisnotacat"]))
 # We can't get 'dog' and 'cat' because they aren't in the training data.
 ```
 
-## Installation
-
-Python 3.6 or above is required.
-
-To install from the command line:
-
-```bash
-pip install git+https://github.com/jacksonllee/wordseg@v0.0.1#egg=wordseg
-```
-
-To include this package in `requirements.txt` ...
-
-```
-git+https://github.com/jacksonllee/wordseg@v0.0.1#egg=wordseg
-```
-
-... or in `setup.py`:
-
-```python
-setup(
-    # ...
-    install_requires=[
-        # ...
-        "wordseg @ git+https://github.com/jacksonllee/wordseg@v0.0.1#egg=wordseg",
-        # ...
-    ],
-    # ...
-)
-```
-
-If you would like to install by cloning (e.g., for development):
-
-```bash
-git clone https://github.com/jacksonllee/wordseg.git
-cd wordseg
-pip install -r dev-requirements.txt  # For running the linter and tests
-pip install -e .
-```
-
 ## Citation
 
 Lee, Jackson L. 2020. wordseg: Word segmentation models in Python. https://doi.org/10.5281/zenodo.4077433
@@ -110,8 +88,8 @@ Lee, Jackson L. 2020. wordseg: Word segmentation models in Python. https://doi.o
 
 ## License
 
-MIT License. Please see [`LICENSE.txt`](LICENSE.txt).
+MIT License. Please see [`LICENSE.txt`](https://github.com/jacksonllee/wordseg/blob/main/LICENSE.txt).
 
 ## Changelog
 
-Please see [`CHANGELOG.md`](CHANGELOG.md).
+Please see [`CHANGELOG.md`](https://github.com/jacksonllee/wordseg/blob/main/CHANGELOG.md).
