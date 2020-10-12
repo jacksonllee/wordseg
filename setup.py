@@ -6,7 +6,7 @@ _THIS_DIR = os.path.dirname(__file__)
 with open(os.path.join(_THIS_DIR, "README.md"), encoding="utf-8") as f:
     _LONG_DESCRIPTION = f.read().strip()
 
-_VERSION = "0.0.1"
+_VERSION = "0.0.2"
 
 
 def main():
@@ -51,6 +51,7 @@ def main():
             "Programming Language :: Python :: 3.6",
             "Programming Language :: Python :: 3.7",
             "Programming Language :: Python :: 3.8",
+            "Programming Language :: Python :: 3.9",
             "Topic :: Scientific/Engineering",
             "Topic :: Scientific/Engineering :: Artificial Intelligence",
             "Topic :: Scientific/Engineering :: Human Machine Interfaces",

@@ -13,6 +13,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
+## [0.0.2] - 2020-10-11
+
+### Added
+- Added support for Python 3.9.
+
 ## [0.0.1] - 2020-10-10
 
 First release, starting with two basic models:
