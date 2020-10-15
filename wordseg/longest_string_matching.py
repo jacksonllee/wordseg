@@ -31,7 +31,9 @@ class LongestStringMatching(BaseSegmenter):
     def fit(self, sents):
         self._words = set()
         for sent in sents:
-            self._words |= set(sent)
+            # Don't waste memory for words of length 1, which are practically
+            # useless for this algorithm.
+            self._words |= set(word for word in sent if len(word) > 1)
 
     def _predict_sent(self, sent_str):
         sent_predicted = []
