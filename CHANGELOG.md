@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- `LongestStringMatching`: Add basic test
+
 ### Changed
 - `LongestStringMatching`: Reduce memory use by not storing words
   of length 1 in training.
