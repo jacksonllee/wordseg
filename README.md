@@ -13,6 +13,7 @@ Table of contents:
 * [Usage](https://github.com/jacksonllee/wordseg#usage)
 * [License](https://github.com/jacksonllee/wordseg#license)
 * [Changelog](https://github.com/jacksonllee/wordseg#changelog)
+* [Contributing](https://github.com/jacksonllee/wordseg/blob/main/CONTRIBUTING.md)
 * [Citation](https://github.com/jacksonllee/wordseg#citation)
 
 ## Installation
@@ -74,6 +75,18 @@ list(model.predict(["thatisadog", "thisisnotacat"]))
 # We can't get 'dog' and 'cat' because they aren't in the training data.
 ```
 
+## License
+
+MIT License. Please see [`LICENSE.txt`](https://github.com/jacksonllee/wordseg/blob/main/LICENSE.txt).
+
+## Changelog
+
+Please see [`CHANGELOG.md`](https://github.com/jacksonllee/wordseg/blob/main/CHANGELOG.md).
+
+## Contributing
+
+Please see [`CONTRIBUTING.md`](https://github.com/jacksonllee/wordseg/blob/main/CONTRIBUTING.md).
+
 ## Citation
 
 Lee, Jackson L. 2020. wordseg: Word segmentation models in Python. https://doi.org/10.5281/zenodo.4077433
@@ -87,11 +100,3 @@ Lee, Jackson L. 2020. wordseg: Word segmentation models in Python. https://doi.o
   url          = {https://doi.org/10.5281/zenodo.4077433}
 }
 ```
-
-## License
-
-MIT License. Please see [`LICENSE.txt`](https://github.com/jacksonllee/wordseg/blob/main/LICENSE.txt).
-
-## Changelog
-
-Please see [`CHANGELOG.md`](https://github.com/jacksonllee/wordseg/blob/main/CHANGELOG.md).
