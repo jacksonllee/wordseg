@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4077433.svg)](https://doi.org/10.5281/zenodo.4077433)
 [![PyPI version](https://badge.fury.io/py/wordseg.svg)](https://pypi.org/project/wordseg)
 [![Supported Python versions](https://img.shields.io/pypi/pyversions/wordseg.svg)](https://pypi.org/project/wordseg)
-[![CircleCI](https://circleci.com/gh/jacksonllee/wordseg/tree/main.svg?style=svg)](https://circleci.com/gh/jacksonllee/wordseg/tree/main)
+[![CircleCI](https://circleci.com/gh/jacksonllee/wordseg/tree/main.svg?style=shield)](https://circleci.com/gh/jacksonllee/wordseg/tree/main)
 
 `wordseg` is a Python package of word segmentation models.
 

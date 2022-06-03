@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - `LongestStringMatching`: Reduce memory use by not storing words
   of length 1 in training.
+- Switched to the top-level `src/` and `tests/` package structure
 
 ### Deprecated
 ### Removed
