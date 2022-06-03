@@ -1,6 +1,6 @@
 import random
 
-from wordseg.base_segmenter import BaseSegmenter
+from .base_segmenter import BaseSegmenter
 
 
 # TODO: RandomSegmenter takes a random seed.
@@ -35,7 +35,9 @@ class RandomSegmenter(BaseSegmenter):
         raise NotImplementedError("No training needed for RandomSegmenter")
 
     def _predict_sent(self, sent_str):
-        segment_or_not = [self.prob > random.random() for _ in range(len(sent_str) - 1)]
+        segment_or_not = [
+            self.prob > random.random() for _ in range(len(sent_str) - 1)  # nosec
+        ]
         boundaries = [i + 1 for i, seg in enumerate(segment_or_not) if seg]
         sent = []
         for i, j in zip([0] + boundaries, boundaries + [len(sent_str)]):

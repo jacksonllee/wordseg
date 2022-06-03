@@ -76,7 +76,7 @@ To work on a feature or bug fix, here are the development steps:
 The `wordseg` repo has continuous integration (CI) turned on,
 with autobuilds running flake8 and black (for styling consistency)
 as well as pytest (for the test suite);
-the tests are in the [`wordseg/tests/`](wordseg/tests) directory.
+the tests are in the [`tests/`](tests) directory.
 If an autobuild at an open pull request fails due to any of pytest, flake8,
 or black, 
 then the pull request' author should fix the errors
@@ -87,11 +87,11 @@ If you would like to help avoid wasting free Internet resources
 you can run the following checks locally before pushing commits:
 
 ```bash
-flake8 --ignore=E501 setup.py wordseg
-black --check setup.py wordseg
-pytest wordseg
+flake8 src tests
+black --check src tests
+pytest
 ```
 
 For errors related to black, run
-`black setup.py wordseg` (without the `--check` flag)
+`black src tests` (without the `--check` flag)
 to update the code.

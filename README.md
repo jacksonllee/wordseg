@@ -55,7 +55,7 @@ The implemented model classes are as follows:
 Sample code snippet:
 
 ```python
-from wordseg import LongestStringMatching
+from src.wordseg import LongestStringMatching
 
 # Initialize a model.
 model = LongestStringMatching(max_word_length=4)
@@ -63,10 +63,10 @@ model = LongestStringMatching(max_word_length=4)
 # Train the model.
 # `fit` takes an iterable of segmented sentences (a tuple or list of strings).
 model.fit(
-    [
-        ("this", "is", "a", "sentence"),
-        ("that", "is", "not", "a", "sentence"),
-    ]
+  [
+    ("this", "is", "a", "sentence"),
+    ("that", "is", "not", "a", "sentence"),
+  ]
 )
 
 # Make some predictions; `predict` gives a generator, which is materialized by list() here.
@@ -89,13 +89,13 @@ Please see [`CONTRIBUTING.md`](https://github.com/jacksonllee/wordseg/blob/main/
 
 ## Citation
 
-Lee, Jackson L. 2020. wordseg: Word segmentation models in Python. https://doi.org/10.5281/zenodo.4077433
+Lee, Jackson L. 2022. wordseg: Word segmentation models in Python. https://doi.org/10.5281/zenodo.4077433
 
 ```bibtex
 @software{leengrams,
   author       = {Jackson L. Lee},
   title        = {wordseg: Word segmentation models in Python},
-  year         = 2020,
+  year         = 2022,
   doi          = {10.5281/zenodo.4077433},
   url          = {https://doi.org/10.5281/zenodo.4077433}
 }

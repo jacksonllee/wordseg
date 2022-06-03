@@ -7,7 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+### Changed
+### Deprecated
+### Removed
+### Fixed
+### Security
+
+## [0.0.3] - 2022-06-03
+
+### Added
 - `LongestStringMatching`: Add basic test
+- Added Python 3.10 support.
 
 ### Changed
 - `LongestStringMatching`: Reduce memory use by not storing words
@@ -15,6 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Deprecated
 ### Removed
+- Dropped Python 3.6 support.
+
 ### Fixed
 ### Security
 

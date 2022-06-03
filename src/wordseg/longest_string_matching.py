@@ -1,4 +1,4 @@
-from wordseg.base_segmenter import BaseSegmenter
+from .base_segmenter import BaseSegmenter
 
 
 class LongestStringMatching(BaseSegmenter):
