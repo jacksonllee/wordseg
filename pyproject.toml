@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wordseg"
-version = "0.0.3"
+version = "0.0.4"
 description = "Word segmentation models"
 readme = "README.md"
 requires-python = ">= 3.7.*"

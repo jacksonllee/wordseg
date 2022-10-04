@@ -1,4 +1,3 @@
-import concurrent.futures as cf
 from abc import ABCMeta, abstractmethod
 
 
@@ -38,9 +37,7 @@ class BaseSegmenter(metaclass=ABCMeta):
         Iterable[Iterable[str]]
             A generator of segmented sentences
         """
-        with cf.ThreadPoolExecutor() as executor:
-            sents_predicted = executor.map(self._predict_sent, sent_strs, chunksize=16)
-        return sents_predicted
+        return (self._predict_sent(s) for s in sent_strs)
 
     @abstractmethod
     def _predict_sent(self, sent_str):
