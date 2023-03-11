@@ -18,8 +18,7 @@ To work on this codebase, you can obtain the source code through GitHub and `git
     git clone https://github.com/<your-github-username>/wordseg.git
     cd wordseg
     pip install --upgrade pip setuptools
-    pip install -r dev-requirements.txt
-    pip install --no-deps -e .
+    pip install -e ".[dev]"
     ```
 
 ## Working on a Feature or Bug Fix

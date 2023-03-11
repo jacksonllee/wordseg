@@ -29,8 +29,7 @@ To install `wordseg` from the GitHub source:
 ```bash
 git clone https://github.com/jacksonllee/wordseg.git
 cd wordseg
-pip install -r dev-requirements.txt  # For running the linter and tests
-pip install -e .
+pip install -e ".[dev]"
 ```
 
 ## Usage
@@ -89,13 +88,13 @@ Please see [`CONTRIBUTING.md`](https://github.com/jacksonllee/wordseg/blob/main/
 
 ## Citation
 
-Lee, Jackson L. 2022. wordseg: Word segmentation models in Python. https://doi.org/10.5281/zenodo.4077433
+Lee, Jackson L. 2023. wordseg: Word segmentation models in Python. https://doi.org/10.5281/zenodo.4077433
 
 ```bibtex
 @software{leengrams,
   author       = {Jackson L. Lee},
   title        = {wordseg: Word segmentation models in Python},
-  year         = 2022,
+  year         = 2023,
   doi          = {10.5281/zenodo.4077433},
   url          = {https://doi.org/10.5281/zenodo.4077433}
 }

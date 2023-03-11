@@ -37,7 +37,7 @@ class BaseSegmenter(metaclass=ABCMeta):
         Iterable[Iterable[str]]
             A generator of segmented sentences
         """
-        return (self._predict_sent(s) for s in sent_strs)
+        return map(self._predict_sent, sent_strs)
 
     @abstractmethod
     def _predict_sent(self, sent_str):
